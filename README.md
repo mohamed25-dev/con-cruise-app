@@ -32,3 +32,34 @@ $ npm run cli
 $ npm run test
 
 ```
+
+## Customers API
+list customers
+```
+GET /customers
+```
+
+get customer by id
+```
+GET /customers/:id
+```
+
+update customer data
+```
+PATCH /customers/:id
+```
+
+create customer data
+```
+POST /customers
+```
+
+remove one customer by id
+```
+DELETE /customers/:id
+```
+
+remove many customers by ids
+```
+DELETE /customers?ids=1,2,3
+```
