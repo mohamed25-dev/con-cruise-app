@@ -49,7 +49,7 @@ update customer data
 PATCH /customers/:id
 ```
 
-create customer data
+add a new customer
 ```
 POST /customers
 ```
