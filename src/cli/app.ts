@@ -125,10 +125,10 @@ const commands: Array<Command> = [
     action: async () => {
       try {
         await axios.get('http://localhost:3000/shutdown');
-        console.log(chalk.green('Done'));
+        console.log(chalk.green('Server turned off successfully'));
       } catch (error) {
         console.log(
-          chalk.red('Something went wrong while communicating to the server'),
+          chalk.red('Server is already off'),
         );
       } finally {
         console.log(chalk.green('**** Bye ****'));
